@@ -10,7 +10,7 @@ GITOPS_BRANCH="main"
 GITOPS_DOCS_DIRECTORY="docs"
 
 # Add origin to integrate with mike
-git remote add $GITOPS_REMOTE_NAME $GITOPS_ORIGIN
+git remote add $GITOPS_REMOTE_NAME $GITOPS_REMOTE
 
 # Generate version patches
 mike deploy --branch $GITOPS_BRANCH --remote $GITOPS_REMOTE_NAME --prefix $GITOPS_DOCS_DIRECTORY --update-aliases $DOCS_VERSION $DEFAULT_ALIAS
