@@ -1,3 +1,0 @@
-[submodule "gitops-partnerportal"]
-	path = gitops-partnerportal
-	url = https://bizzkit-platform@dev.azure.com/bizzkit-platform/Bizzkit/_git/gitops-partnerportal
