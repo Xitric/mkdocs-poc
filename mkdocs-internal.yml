@@ -1,0 +1,6 @@
+site_name: Bizzkit Developer Documentation
+
+theme:
+  name: material
+
+docs_dir: sites/internal
