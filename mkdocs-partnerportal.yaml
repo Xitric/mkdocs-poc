@@ -8,4 +8,3 @@ extra:
     provider: mike
 
 docs_dir: sites/partnerportal
-site_dir: ./gitops-partnerportal/docs

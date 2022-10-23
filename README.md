@@ -14,8 +14,11 @@ Then activate the virtual environment with:
 # Powershell & CMD
 .\venv\Scripts\activate
 
-# Bash
+# Bash (Windows)
 source venv/Scripts/activate
+
+# Bash (Linux)
+source venv/bin/activate
 ```
 
 If the virtual environment is activated properly, the name of the environment will be displayed in your terminal.
@@ -48,3 +51,11 @@ mkdocs serve -f ./mkdocs-partnerportal.yaml
 ```
 
 A sample documentation site will then be available at <http://127.0.0.1:8000/>.
+
+## Release
+
+To release a new version of the documentation, such as `21.40.0`, run the following comand:
+
+```shell
+./scripts/release.sh "21.40.0"
+```
