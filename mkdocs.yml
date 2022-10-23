@@ -2,9 +2,21 @@ site_name: Bizzkit Documentation PoC
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
 
 extra:
   version:
     provider: mike
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      auto_title: true
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.superfences
 
 docs_dir: sites/partnerportal

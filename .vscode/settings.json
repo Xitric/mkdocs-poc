@@ -1,8 +1,8 @@
 {
   "yaml.schemas": {
     "https://squidfunk.github.io/mkdocs-material/schema.json": [
-      "mkdocs-internaldocs.yaml",
-      "mkdocs-partnerportal.yaml"
+      "mkdocs-internal.yml",
+      "mkdocs.yml"
     ]
   }
 }
