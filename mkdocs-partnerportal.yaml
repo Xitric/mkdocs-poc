@@ -3,4 +3,9 @@ site_name: Bizzkit Documentation PoC
 theme:
   name: material
 
+extra:
+  version:
+    provider: mike
+
 docs_dir: sites/partnerportal
+site_dir: ../gitops-partnerportal
