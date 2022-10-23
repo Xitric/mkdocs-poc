@@ -16,7 +16,9 @@ git fetch $GITOPS_REMOTE_NAME $GITOPS_REMOTE_BRANCH:$GITOPS_LOCAL_BRANCH
 
 # Generate version patches
 mike deploy --branch $GITOPS_LOCAL_BRANCH --remote $GITOPS_REMOTE_NAME --prefix $GITOPS_DOCS_DIRECTORY --update-aliases $DOCS_VERSION $DEFAULT_ALIAS
-mike set-default --branch $GITOPS_LOCAL_BRANCH --remote $GITOPS_REMOTE_NAME --prefix $GITOPS_DOCS_DIRECTORY --push $DEFAULT_ALIAS
+mike set-default --branch $GITOPS_LOCAL_BRANCH --remote $GITOPS_REMOTE_NAME --prefix $GITOPS_DOCS_DIRECTORY $DEFAULT_ALIAS
+
+git push $GITOPS_REMOTE_NAME $GITOPS_LOCAL_BRANCH:$GITOPS_REMOTE_BRANCH
 
 # Clean up after mike
 rm -r site
