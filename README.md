@@ -41,13 +41,13 @@ python -m pip freeze > requirements.txt
 
 ## Development
 
-We encourage all users to install the VS Code [YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) to get schema validation and IntelliSense when editing `yaml` configuration files.
+We encourage all users to install the VS Code [YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) to get schema validation and IntelliSense when editing `yml` configuration files.
 
 To preview a documentation site at any time, simply run the corresponding command:
 
 ```shell
-mkdocs serve -f ./mkdocs-internaldocs.yaml
-mkdocs serve -f ./mkdocs-partnerportal.yaml
+mkdocs serve -f ./mkdocs-internal.yml
+mkdocs serve -f ./mkdocs.yml
 ```
 
 A sample documentation site will then be available at <http://127.0.0.1:8000/>.
