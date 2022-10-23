@@ -35,3 +35,9 @@ To update a package, install the new package version in your virtual environment
 ```shell
 python -m pip freeze > requirements.txt
 ```
+
+## Development
+
+We encourage all users to install the VS Code [YAML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) to get schema validation and IntelliSense when editing [`mkdocs.yaml`](mkdocs.yml).
+
+To preview the documentation site at any time, simply run `mkdocs serve`, and then visit <http://127.0.0.1:8000/>.
