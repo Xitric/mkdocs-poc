@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to the Bizzkit developer documentation
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

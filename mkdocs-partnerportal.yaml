@@ -2,3 +2,5 @@ site_name: Bizzkit Documentation PoC
 
 theme:
   name: material
+
+docs_dir: sites/partnerportal
